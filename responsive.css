@@ -1,1 +1,10 @@
+@media (max-width: 780px) {
+  .contact-info {
+    flex-direction: column;
+    width: 80%;
+  }
+  .details {
+    width: 80%;
+  }
+}
 
