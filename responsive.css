@@ -1,3 +1,12 @@
+@media (max-width: 1000px) {
+  .contact-info {
+    flex-direction: column;
+    width: 50%;
+  }
+  .details {
+    width: 50%;
+  }
+}
 @media (max-width: 780px) {
   .contact-info {
     flex-direction: column;
@@ -7,4 +16,12 @@
     width: 80%;
   }
 }
-
+@media (max-width: 670px) {
+  .contact-info {
+    flex-direction: column;
+    width: 100%;
+  }
+  .details {
+    width: 100%;
+  }
+}
