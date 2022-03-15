@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  background-image: url(asset/img/contact-bg.png);
+  background-size: cover;
+}
+.contact-us {
+  letter-spacing: 2px;
+}
+.contact {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-box {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+.contact-info {
+  margin: 0 auto;
+}
+.details {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 539px;
+  height: 387px;
+  background: #00548c;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(46, 119, 196);
+}
+.contact-items {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+.contact-items-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+}
+.details h3 {
+  text-align: center;
+}
+.details p,
+.details a {
+  color: white;
+  font-size: 16px;
+  margin-left: 25px;
+}
+.contact-items a {
+  margin-top: 8px;
+}
+.address {
+  margin-top: 15px;
+}
+.email {
+  margin-top: 10px;
+}
+.phone {
+  margin-top: 15px;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+.facebook {
+  margin-right: 25px;
+}
+.instagram {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 780px) {
+  .contact-info {
+    flex-direction: column;
+    width: 90%;
+  }
+  .details {
+    width: 100%;
+  }
+}
